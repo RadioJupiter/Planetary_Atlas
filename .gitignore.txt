@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional)
+atlas/atlas_data.npz
