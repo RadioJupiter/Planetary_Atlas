@@ -1,60 +1,156 @@
-# Planetary_Atlas
-A physics-driven tool for mapping protoplanetary disks, predicting ring formation, and identifying hidden planet candidates.
+###### \# Planetary\_Atlas
 
-Core features:
--DiskAtlas model for laoding and analyzing disk physics
-    - Planet-candidate finder (planet_finder.py)
-        - Hydro-time reduction planner (hydro_planner.py)
-            - Modular structure for scientific workflows
-                - Clean Python package layout
+###### 
 
-Installation: 
+###### Version: 1.0.0 (Experimental)
 
-git clone https://github.com/RadioJupiter/Planetary_Atlas.git
-cd Planetary_Atlas
+###### 
 
+###### This project is an experimental scientific toolkit for analyzing protoplanetary disk data, identifying planet‑forming regions, and generating hydro simulation plans. It is not actively supported, maintained, or guaranteed to be stable. You are free to use it, fork it, modify it, or extend it, but it is provided as‑is.
 
-Install dependencies: 
+###### 
 
-pip install numpy pandas matplotlib
+###### If you use this project in academic work, please cite it. A DOI will be added once the first release is archived on Zenodo.
 
+###### 
 
-USAGE
+###### \## Features
 
-Load the atlas: 
+###### 
 
-from atlas.disk_atlas import DiskAtlas
-atlas = DiskAtlas("atlas/atlas_data.npz")
+###### \- Load and analyze disk physics data
 
-Find planet candidates:
+###### \- Identify planet candidate radii
 
-from tools.planet_finder import find_planet_candidates
-find_planet_candidates(atlas)
+###### \- Generate hydro simulation target lists
 
-Generate  hydro simulation targets:
+###### \- Simple, modular tool architecture
 
-from tools.hydro_planner import make_hydro_plan
-make_hydro_plan(atlas)
+###### \- Minimal dependencies
 
-Run example script: 
+###### \- Clear documentation and examples
 
-python run_atlas.py
+###### 
 
+###### \## Installation
 
-Project Structure: 
+###### 
 
-Planetary_Atlas/
-  atlas/
-    disk_atlas.py
-    atlas_data.npz
-  tools/
-    planet_finder.py
-    hydro_planner.py
-  run_atlas.py
-  README.md
-  LICENSE
-  .gitignore
+###### Clone the repository:
 
-LICENSE
+###### 
 
-MIT License
+###### git clone https://github.com/RadioJupiter/Planetary\_Atlas.git
+
+###### cd Planetary\_Atlas
+
+###### 
+
+###### Install dependencies:
+
+###### 
+
+###### pip install -r requirements.txt
+
+###### 
+
+###### \## Quickstart
+
+###### 
+
+###### from atlas.disk\_atlas import DiskAtlas
+
+###### from tools.planet\_finder import find\_planet\_candidates
+
+###### from tools.hydro\_planner import make\_hydro\_plan
+
+###### 
+
+###### atlas = DiskAtlas("atlas/atlas\_data.npz")
+
+###### 
+
+###### candidates = find\_planet\_candidates(atlas)
+
+###### plan = make\_hydro\_plan(atlas)
+
+###### 
+
+###### print("Candidates:", candidates)
+
+###### print("Hydro Plan:", plan)
+
+###### 
+
+###### \## Documentation
+
+###### 
+
+###### All documentation is located in the `docs/` directory:
+
+###### 
+
+###### \- overview.md — project overview
+
+###### \- installation.md — how to install and run
+
+###### \- api.md — module and function reference
+
+###### \- architecture.md — system design and data flow
+
+###### \- examples.md — usage examples
+
+###### \- Quickstart.ipynb — interactive notebook
+
+###### 
+
+###### \## Project Structure
+
+###### 
+
+###### atlas/  
+
+###### &#x20;   disk\_atlas.py  
+
+###### tools/  
+
+###### &#x20;   planet\_finder.py  
+
+###### &#x20;   hydro\_planner.py  
+
+###### docs/  
+
+###### &#x20;   \*.md  
+
+###### &#x20;   Quickstart.ipynb  
+
+###### 
+
+###### \## License
+
+###### 
+
+###### This project is released under an open license. You may use, modify, and redistribute it freely.
+
+###### 
+
+###### \## Support
+
+###### 
+
+###### This project is experimental and not actively supported. Issues and pull requests may not be reviewed.
+
+###### 
+
+###### \## Citation
+
+###### 
+
+###### A DOI will be added once the first tagged release is archived on Zenodo. Until then, please cite the GitHub repository:
+
+###### 
+
+###### RadioJupiter (2026). Planetary\_Atlas. GitHub repository: https://github.com/RadioJupiter/Planetary\_Atlas
+
+###### 
+
