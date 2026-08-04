@@ -1,0 +1,17 @@
+ 
+cff-version: 1.2.0
+message: "If you use Planetary_Atlas in your research, please cite it."
+title: "Planetary_Atlas"
+version: "1.0.0"
+type: software
+authors:
+  - family-names: "Angela"
+    given-names: ""
+repository-code: "https://github.com/RadioJupiter/Planetary_Atlas"
+abstract: "Planetary_Atlas is an experimental scientific toolkit for analyzing protoplanetary disk data, identifying planet-forming regions, and generating hydro simulation plans. This project is not actively supported and is provided as-is."
+license: "MIT"
+keywords:
+  - protoplanetary disks
+  - astrophysics
+  - scientific computing
+  - hydro simulations
