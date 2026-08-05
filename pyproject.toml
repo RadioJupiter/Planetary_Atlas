@@ -1,0 +1,27 @@
+ 
+[project]
+name = "planetary-atlas"
+version = "1.0.0"
+description = "A physics-driven toolkit for mapping protoplanetary disks and identifying planet-forming regions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Angela" }
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/RadioJupiter/Planetary_Atlas"
+Repository = "https://github.com/RadioJupiter/Planetary_Atlas"
+Documentation = "https://github.com/RadioJupiter/Planetary_Atlas/tree/main/docs"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
