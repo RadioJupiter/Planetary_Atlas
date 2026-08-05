@@ -1,4 +1,7 @@
 ###### \# Planetary\_Atlas
+DOI: https://doi.org/10.5281/zenodo.21813167
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21813167.svg)](https://doi.org/10.5281/zenodo.21813167)
+
 
 ###### 
 
