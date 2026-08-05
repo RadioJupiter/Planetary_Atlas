@@ -1,6 +1,15 @@
-###### \# Planetary\_Atlas
-DOI: https://doi.org/10.5281/zenodo.21813167
+# 🌌 Planetary_Atlas
+### A physics-driven toolkit for mapping protoplanetary disks and identifying planet-forming regions
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21813167.svg)](https://doi.org/10.5281/zenodo.21813167)
+
+
+## How to Cite
+
+If you use Planetary_Atlas in your research, please cite the archived Zenodo release:
+
+**Planetary_Atlas v1.0.0**  
+DOI: https://doi.org/10.5281/zenodo.21813167
 
 
 ###### 
